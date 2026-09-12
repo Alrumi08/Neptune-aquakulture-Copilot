@@ -1,6 +1,6 @@
 services:
   langflow:
-    image: ${LANGFLOW_IMAGE:-docker.io/langflowai/langflow:latest}
+    image: ${LANGFLOW_IMAGE:-docker.io/langflowai/langflow-all:latest}
     ports:
       - ${HOST_PORT:-7860}:${LANGFLOW_PORT:-7860}
     environment:
