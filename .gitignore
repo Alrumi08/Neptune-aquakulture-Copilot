@@ -34,3 +34,7 @@ Thumbs.db
 
 # Docker compose generated files
 **/compose.override.yaml
+
+# Python cache
+__pycache__/
+*.pyc
